@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="s.scss">
+    <title>Meu Portifólio</title>
+  </head>
+  <body>
+    <!--Navbar section -->
+    <nav class="navbar navbar-expand-md bg-black navbar-dark">
+      <div class="container-fluid px-5">
+        <a href="#" class="navbar-brand">Meu Portifólio</a>
+        <button 
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#redes-sociais"
+          >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="redes-sociais">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <button class="nav-link bg-black border-0" onclick="this.blur(); window.open('https://wa.me/5545991234251?text=Ol%C3%A1+Rafael%2C+vi+o+seu+portif%C3%B3lio...', '_blank')">
+                <i class="bi bi-whatsapp"></i>
+              </button>
+            </li>
+            <li class="nav-item active">
+              <button class="nav-link bg-black border-0" onclick="this.blur(); window.open('mailto:rafaelgasparoto4@gmail.com', '_blank')">
+                <i class="bi bi-envelope"></i>
+              </button>
+            </li>
+            <li class="nav-item active">
+              <button class="nav-link bg-black border-0" onclick="this.blur(); window.open('https://www.linkedin.com/in/rafael-gasparoto-437526187/', '_blank')">
+                <i class="bi bi-linkedin"></i>
+              </button>
+            </li>
+            <li class="nav-item active">
+              <button class="nav-link bg-black border-0" onclick="this.blur(); window.open('https://github.com/RafaelGasparoto', '_blank')">
+                <i class="bi bi-github"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--About Me-->
+    <section class="bg-dark text-light text-center">
+      <div class="container-fluid">
+        <div>
+          <div class="p-4">
+            <h1 class="mb-3">
+              OLÁ, EU ME CHAMO RAFAEL
+            </h1>
+            <h2 class="mb-4">
+              EU SOU UM DESENVOLVEDOR DE SOFTWARE
+            </h2>
+              <button type="button" class="bt-cv btn btn-outline-light rounded-5 mb-5" onclick="this.blur(); window.open('https://drive.google.com/file/d/12Q9SlxLQXGPNfJAarpe38_jo8XtILAwM/view?usp=sharing', '_blank')">CV</button>
+          </div>  
+        </div>
+        <div>
+          <div class="text-start p-5">
+            <h1 class="pb-3">
+              SOBRE MIM
+            </h1>
+            <p class="lead">
+              Sou de Toledo, tenho 23 anos e faço faculdade de engenharia de computação pela UTFPR, estou no 6º periodo. Criei este projeto de portifólio tanto
+              para treinar minhas habilidades com HTML e CSS quanto para apresentar os meus projetos que já fiz.
+              Tenho conhecimento em C/C++, Python, Dart/Flutter, VBA, SQL, HTML e CSS.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="bg-dark text-light"> 
+      <div class="container-fluid">       
+        <div class="text-center mb-5 mx-4">
+          <div class="p-4">
+            <h1>Campo Minado</h1>
+            <p class="lead">
+              Este foi meu primeiro grande projeto na faculdade, 
+              a idéia era construir um jogo de campo minado em C que fosse 
+              possível jogar, salvar e carregar para jogar novamente outra vez que fosse executado. Não é usado interfece gráfica, então ele roda pelo terminal. É possivel ver mais sobre o funcionamento dele através do <a href="https://github.com/RafaelGasparoto/Campo_Minado/raw/master/campominado_definitive_edition.exe">executável</a> e o <a href="https://github.com/RafaelGasparoto/Campo_Minado/blob/master/campominado_definitive_edition.c" target="_blank">código fonte</a>.
+            </p>
+          </div>
+          <div class="container p-sm-5">
+            <img src="imagens/imagem-projeto-1.png" class="img-fluid w-75 rounded-4 mb-5" alt="">
+          </div>
+        </div>
+        <div class="text-center mb-5 mx-4">
+          <div class="p-4">
+            <h1>Sistema de Portas Lógicas</h1>
+            <p class="lead">
+              Projeto de orientação a objetos feito em C++ através da SDK QtCreator. O programa foi criado 100% sem ajuda de Forms. É um software que simula um sistema de portas lógicas que pode ser montado de acordo com a sua necessidade,
+              foram implementados os operadores lógicos or, and e not. O programa ainda permite salvar e carregar os sistemas criados. 
+              Você pode fazer o download do <a href="https://github.com/RafaelGasparoto/Sistema_De_Portas_Logicas/raw/main/Sistema%20de%20Portas%20L%C3%B3gicas.zip">programa</a> para utilizar e 
+              ter acesso ao repositório disponível <a href="https://github.com/RafaelGasparoto/Sistema_De_Portas_Logicas/tree/main/SistemaDePortasLogicas">aqui</a>.  
+            </p>
+          </div>
+          <div class="container p-sm-5">
+            <img src="imagens/imagem-projeto-2.png" class="img-fluid w-75 rounded-4 mb-5" alt="">
+          </div>
+        </div>
+        <div class="text-center mb-5 mx-4">
+          <div class="p-4">
+            <h1>Análise Musical - Método de Agrupamento K-Means</h1>
+            <p class="lead">
+              Um programa de ciência de dados, escrito em Python, feito para agrupar músicas por gênero. Os dados foram recolhidos através da API do Spotify, 
+              então foi feito uma análise e tratamento de dados
+              para determinar duas caracteriscas que poderiam determinar o gênero da música. Para determinar os clusters foi 
+              utilizado o algoritmo de mineração de dados K-Means. Eu escrevi um 
+              <a href="https://github.com/RafaelGasparoto/Analise_Musical/raw/main/An%C3%A1lise%20Musical_%20M%C3%A9todo%20de%20Agrupamento%20K-Means.pdf">artigo</a> 
+              explicando melhor sobre o projeto, também é possivel visualizar o <a href="https://github.com/RafaelGasparoto/Analise_Musical/blob/main/Analise_musical.ipynb">código fonte</a>.
+             </p>
+          </div>
+          <div class="container p-sm-5">
+            <img src="imagens/imagem-projeto-3.png" class="img-fluid w-75 rounded-4 mb-5" alt="">
+          </div>
+        </div>
+        <div class="text-center mb-5 mx-4">
+          <div class="p-4">
+            <h1>Zodiaco Karma</h1>
+            <p class="lead">
+              Este é um app que fiz em Flutter, o app mostra o carma de acordo com o signo da pessoa, 
+              é algo simples que usei para aprender a usar dropdownbox, mudar nome e icone do apps. Acesso ao repositório <a href="https://github.com/RafaelGasparoto/Zodiaco_Karma">aqui</a>.
+            </p>
+          </div>
+          <div class="container p-sm-5">
+            <img src="imagens/imagem-projeto-4-2.png" class="img-fluid w-75 rounded-4 mb-5" alt="">
+          </div>
+        </div>
+        <div class="text-center mb-5 mx-4">
+          <div class="p-4">
+            <h1>Dado da Sorte</h1>
+            <p class="lead">
+              App feito em flutter, fiz para testar o uso de GestureDetector, é um simples jogo de dados com 50/50 chances de vitória. 
+              A idéia é futuramente inserir vários jogos de azar. O repositório dele pode ser acessado <a href="https://github.com/RafaelGasparoto/Dado_da_Sorte">aqui</a>.
+            </p>
+          </div>
+            <img src="imagens/imagem-projeto-5-2.gif" class="w-25 img-fluid rounded-4 mb-5" alt="">    
+        </div>
+        <div class="text-center pb-5 mx-4">
+          <div class="p-4">
+            <h1>Meu Portifólio</h1>
+            <p class="lead">
+              Este site é um versão antiga do meu portifólio. Fiz para praticar HTML e CSS, além de poder expor um pouco dos meus projetos. Ele possuía problemas com
+              dimensões diferentes de telas nas quais estava sendo exibido. Essa nova versão agora utiliza Bootstrap 5 para um desenvolvimento responsivo.
+              Também houve alterações no desing em relação a versão antiga. O código fonte da versão antiga pode ser visto <a href="https://github.com/RafaelGasparoto/Meu_Portifolio" target="_blank">aqui</a>, já o código
+              da nova versão por ser visto <a href="" target="_blank">aqui</a>.
+            </p>
+          </div>
+          <div class="container p-sm-5">
+            <img src="imagens/imagem-projeto-6.png" class="img-fluid w-75 rounded-4 mb-5" alt="">
+      
+          </div>
+          </div>
+      </div> 
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

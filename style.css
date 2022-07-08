@@ -1,0 +1,19 @@
+h2,
+h1 {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+p {
+  text-align: justify;
+  font-size: larger;
+}
+
+.bt-cv {
+  width: 15%;
+}
+
+.img-h{
+  width: 35%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
